@@ -1,6 +1,5 @@
 
 
-
 @import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
@@ -44,11 +43,9 @@ div:nth-of-type(2){
     
 
 
-
 li {
  display: inline;
 }
-
 
 nav {
     display: flex;
@@ -111,7 +108,7 @@ section:nth-of-type(1) {
     width: fit-content;
  
 }
-/*ARTICLE ET IMAGE PAGE D'ACCEUIL*/
+/*"c'est quoi le codePAGE D'ACCEUIL*/
 section:nth-of-type(1) {
     flex-direction: column;
 }
@@ -123,7 +120,7 @@ article:nth-of-type(1){
     display: flex;
     flex-direction: row;
     align-self: center;
-    background-color: rgb(192, 186, 186);
+   
 
 }
 
@@ -137,18 +134,19 @@ p:nth-of-type(1) {
     height: 300px;
     width: 300px;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: -10px;
 }
 
 
-
-
+/*Quelques informations sur le metier de developpeur web section 2*/
+section:nth-of-type(2) {
+    display: flex;
+    justify-content: center;
+}
 
 section:nth-of-type(2) {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    width: 100%;
     margin-top: 100px;
 }
 
@@ -167,13 +165,13 @@ to {
 }
     
 }
-
+/*comment je peux apprendre section 3*/
 section:nth-of-type(3) {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-left: 50px;
 }
-
+/*Quelques vidéos pour vous aider 4*/
 .sec4 {
     height: 250px;
     width: 250px;
@@ -211,26 +209,26 @@ section:nth-of-type(4) {
     }
 
     to {
-        transform: translateX(50px);
+        transform: translateX(0px);
         background-color: gainsboro;
 
     }
 }
-
+/*Quelques vidéos pour vous aider 4*/
 section:nth-of-type(5) {
-    width: fit-content;
+    width: 100%;
     padding: 30px;
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+/*Espace detente pour quand vous etes frustré section 5*/
+
 section:nth-of-type(5) {
     display: flex;
+    justify-content: center;
     justify-content: space-between;
-    margin-left: 150px;
-   flex-shrink: 1;
-   flex-basis:0px;
 }
 
 section:nth-of-type(6) {
@@ -243,117 +241,33 @@ section:nth-of-type(6) {
 
 section:nth-of-type(6) {
     display: flex;
-    justify-content: space-evenly;
-    background-color: #27409e;
-    
-
+    justify-content: center;
+    justify-content: space-between;
 }
 
 audio {
     border: #27409e 4px solid;
     border-radius: 50%;
     box-shadow: 2px 5px 2px;
-    justify-self: center;
 }
-
-#cssart1{
-    display: flex;
-    flex-direction: row;
-    justify-items: space-between;
-}
-
-#cssart2{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-items: space-between;
-}
-
-#cssart3{
-    display: flex;
-    flex-direction: row;
-    justify-items: space-between;
-}
-
-.cssp1 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin-left : 100px;
-    font-family: 'Open Sans', sans-serif; 
-}
-
-
-
-.cssp2 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin : 20px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.cssp3 {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    margin : 20px;
-    font-family: 'Open Sans', sans-serif;  
-}
-
-.cssp1 {
-    animation: slide 3s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes slide {
-    0% {
-        transform: translateX(-2000px);
-        
-
-    }
-
-    50% {
-        transform: translateX(-2000px);
-       
-
-    }
-
-    100%{
-        transform: translateX(0px);
-        
-
-    }
-}
-
-.cssp2 {
-    animation: slide2 4s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes slide2 {
-    0% {
-        transform: translateX(2000px);
-
-    }
-
-    50% {
-        transform: translateX(2000px);
-
-    }
-
-    100%{
-        transform: translateX(0px);
-
-    }
-}
-
-.cssp3 {
-    animation: slide 5s;
-    animation-fill-mode: forwards;
-}
-
+/*footer*/
 footer {
+    height: 150px;
+    width: 100%;
     display: flex;
-    width: 250px;
-    height: 250px;
+    justify-content: center;
+    background-color: #27409e;
+    
+}
+
+.footertext{
+    align-self: center;
+    font-family: 'Michroma', sans-serif;
+    color: gainsboro;
+    font-size: 1em;   
+    text-decoration: none;
+}
+
+.footertext:hover{
+    color: crimson;
 }

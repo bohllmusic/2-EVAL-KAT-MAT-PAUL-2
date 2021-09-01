@@ -264,3 +264,25 @@ form{
     animation: animForm 2s;
     animation-fill-mode: forwards;
 }
+
+/*footer*/
+footer {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #27409e;
+    
+}
+
+.footertext{
+    align-self: center;
+    font-family: 'Michroma', sans-serif;
+    color: gainsboro;
+    font-size: 1em;   
+    text-decoration: none;
+}
+
+.footertext:hover{
+    color: crimson;
+}
